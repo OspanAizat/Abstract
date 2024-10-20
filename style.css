@@ -1,0 +1,104 @@
+*{ 
+    margin:0; 
+    padding:0; 
+    box-sizing: border-box; 
+} 
+.nav{ 
+    width:100%; 
+    height:75px; 
+    display: flex; 
+    justify-content:flex-start; 
+    align-items: center; 
+    padding: 20px; 
+    background-color: rgba(0, 0, 0, 0.921); 
+    color:white; 
+    font-size: 20px; 
+} 
+.logo{ 
+    height:75px; 
+} 
+.logo2{ 
+    margin-left: 800px; 
+    gap: 10px; 
+     
+} 
+.a{ 
+    color: white; 
+    font-size: 20px; 
+    
+} 
+.btn1{ 
+    background-color: rgba(91, 88, 88, 0.838); 
+    width:200px; 
+    height:50px; 
+    border-radius: 10px; 
+    color:white; 
+    font-size: 20px; 
+    border-color:white; 
+    
+    
+} 
+.btn2{ 
+    background-color: rgb(76, 176, 234); 
+    border-radius:  10px; 
+    width:150px; 
+    height:50px; 
+    text-align: center; 
+    color:white; 
+    font-size: 20px; 
+ 
+} 
+.container{ 
+   padding: 200px; 
+   background-color:#c78ccfaa; 
+   place-content:center; 
+   align-items:center; 
+   font-size:25px; 
+   font-family:"Roboto Mono", monospace; 
+} 
+.type{ 
+    width:850px; 
+    height:60px; 
+    font-size:30px;   
+} 
+.container2{ 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap:5rem; 
+    margin-top: 4rem; 
+    margin-bottom: 4rem; 
+    font-size: large; 
+} 
+.card1, .card2, .card3, .card4, .card5, .card6{ 
+    
+    display: flex; 
+    justify-content: center; 
+   
+ 
+} 
+.container3{ 
+    background-color: rgb(21, 21, 21); 
+    color:white; 
+    display: grid; 
+     
+ 
+} 
+.column1{ 
+    padding:5rem; 
+} 
+.column2{ 
+    padding:5rem; 
+} 
+.column3{ 
+    padding:5rem; 
+} 
+.column4{ 
+    padding:5rem; 
+} 
+.card{ 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    max-width: 200px; 
+    max-height: 200px; 
+}
